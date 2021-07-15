@@ -4,7 +4,7 @@ import "./About.css";
 const About = ({ hero }) => {
   return (
     <div className="about">
-      <div>
+      <div className="card">
         {hero.aboutMe.map((item) => {
           return (
             <div key={JSON.stringify(item)} className="item">

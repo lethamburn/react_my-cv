@@ -7,6 +7,8 @@ export const CV = {
     birthDate: "26/10/1990",
     phone: "(+34) 657511155",
     image: "https://i.imgur.com/bQ71faY.png",
+    gitHub: "https://github.com/lethamburn",
+    portfolio: "https://lethamburn.github.io/react_portfolio/",
     aboutMe: [
       {
         info: "🎮 Redactor en diversos medios sobre cine, videojuegos y tendencias.",

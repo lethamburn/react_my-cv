@@ -22,13 +22,23 @@ function App() {
         <div className="divider">
           <span></span>
           <span>
-            <button className="custom-btn btn-4" onClick={() => setShowEducation(true)}>Educación</button>
-            <button className="custom-btn btn-4" onClick={() => setShowEducation(false)}>Experiencia</button>
+            <button
+              className="custom-btn btn-4"
+              onClick={() => setShowEducation(true)}
+            >
+              Educación
+            </button>
+            <button
+              className="custom-btn btn-4"
+              onClick={() => setShowEducation(false)}
+            >
+              Experiencia
+            </button>
           </span>
           <span></span>
         </div>
       </nav>
-      <div className="letter">
+      <div>
         {showEducation ? (
           <Education education={education} />
         ) : (
@@ -40,6 +50,8 @@ function App() {
         habilities={habilities}
         volunteer={volunteer}
       />
+      <br />
+      <br />
     </div>
   );
 }
