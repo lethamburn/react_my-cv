@@ -1,12 +1,13 @@
 import React from "react";
+import "./About.css";
 
-const About = ({hero}) => {
+const About = ({ hero }) => {
   return (
-    <div>
+    <div className="about">
       <div>
         {hero.aboutMe.map((item) => {
           return (
-            <div key={JSON.stringify(item)}>
+            <div key={JSON.stringify(item)} className="item">
               <p>{item.info}</p>
             </div>
           );

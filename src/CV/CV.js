@@ -6,18 +6,19 @@ export const CV = {
     email: "antoniorosalesmartinez90@gmail.com",
     birthDate: "26/10/1990",
     phone: "(+34) 657511155",
+    image: "https://i.imgur.com/bQ71faY.png",
     aboutMe: [
       {
-        info: "Redactor en diversos medios sobre cine, videojuegos y tendencias.",
+        info: "🎮 Redactor en diversos medios sobre cine, videojuegos y tendencias.",
       },
       {
-        info: "Experiencia en Impresión 3D a nivel particular y profesional.",
+        info: "🔩 Experiencia en Impresión 3D a nivel particular y profesional.",
       },
       {
-        info: "Músico en mi tiempo libre.",
+        info: "🎸 Músico en mi tiempo libre.",
       },
       {
-        info: "Actualmente mi formación y desarrollo laboral están enfocados en el Full Stack Development.",
+        info: "💻 Actualmente mi formación y desarrollo laboral están enfocados en el Full Stack Development.",
       },
     ],
   },
@@ -80,15 +81,21 @@ export const CV = {
   languages: {
     language: "Inglés",
     wrlevel: "Alto",
-    splevel: "Alto",
+    splevel: "Medio-Alto",
   },
   habilities: ["HTML5", "CSS3", "Git", "Angular", "React", "MongoDB"],
   volunteer: [
     {
       name: "Protectora de animales",
-      where: "La Madrileña-Madrid",
+      where: "Madrid",
       description:
         "Voluntario habitual colaborando con labores de mantenimiento, cuidado de animales y limpieza en protectoras de animales.",
+    },
+    {
+      name: "Impresión de material médico",
+      where: "Málaga",
+      description:
+        "Impresión en 3D de material médico tales como viseras y piezas para su montaje a diversos centros de salud y hospitales en 2020",
     },
   ],
 };

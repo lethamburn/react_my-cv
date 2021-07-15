@@ -1,23 +1,38 @@
 import React from "react";
+import "./More.css";
 
 const More = ({ languages, habilities, volunteer }) => {
   return (
-    <div>
+    <div className="more">
+     <div className="divider">
+          <span></span>
+          <span>Idiomas</span>
+          <span></span>
+        </div>
     <p>{languages.language}</p>
     <p>Nivel escrito: {languages.wrlevel}</p>
     <p>Nivel oral: {languages.splevel}</p>
-    <hr />
-    <div>
-   {habilities.map(txt => <p>{txt}</p>)}
-   <hr />
+    <div className="divider">
+          <span></span>
+          <span>Skills</span>
+          <span></span>
+        </div>
+    <div className="habilities">
+   {habilities.map(txt => <p >{txt}</p>)}
 </div>
-      <div>
+ <div className="divider">
+          <span></span>
+          <span>Voluntariados</span>
+          <span></span>
+        </div>
+      <div className="volunteer">
         {volunteer.map((item) => {
           return (
             <div key={JSON.stringify(item)}>
-              <p>{item.name}</p>
+              <p className="name">{item.name}</p>
               <p>{item.where}</p>
               <p>{item.description}</p>
+              
             </div>
           );
         })}

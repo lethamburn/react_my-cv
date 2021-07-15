@@ -1,0 +1,9 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .name{
+    font-weight: bold;
+}
