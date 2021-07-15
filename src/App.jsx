@@ -1,65 +1,30 @@
+import { useState } from "react";
 import "./App.css";
 import { Hero, About, Education, Experience, More } from "./components";
+import { CV } from "./CV/CV";
+
+const { hero, education, experience, languages, habilities, volunteer } = CV;
 
 function App() {
-  const CV = [
-    {
-      name: "Antonio",
-      adress: "Rosales Martínez",
-      city: "Madrid-Spain",
-      email: "antoniorosalesmartinez90@gmail.com",
-      birthDate: "26/10/1990",
-      phone: "(+34) 657511155",
-      aboutMe: [
-        {
-          info: "",
-          info: "",
-          info: "",
-          info: "",
-        },
-      ],
-      education: [
-        {
-          name: "",
-          date: "",
-          where: "",
-        },
-        {
-          name: "",
-          date: "",
-          where: "",
-        },
-      ],
-      experience: [
-        {
-          name: "",
-          date: "",
-          where: "",
-        },
-        {
-          name: "",
-          date: "",
-          where: "",
-        },
-      ],
-      languages: [
-        {
-          language: "",
-          wrlevel: "",
-          splevel: "",
-        },
-      ],
-      habilities: ["HTML5", "CSS3"],
-      volunteer: [{ name: "", where: "", description: "" }],
-    },
-  ];
+  const [showEducation, setShowEducation] = useState(true);
   return (
     <div className="App">
-      <Hero />
-      <About />
-      <Education />
-      <Experience />
-      <More />
+      <Hero hero={hero} />
+      <About hero={hero} />
+      <nav>
+        <button onClick={() => setShowEducation(true)}>Educación</button>
+        <button onClick={() => setShowEducation(false)}>Experiencia</button>
+      </nav>
+      {showEducation ? (
+        <Education education={education} />
+      ) : (
+        <Experience experience={experience} />
+      )}
+      <More
+        languages={languages}
+        habilities={habilities}
+        volunteer={volunteer}
+      />
     </div>
   );
 }
