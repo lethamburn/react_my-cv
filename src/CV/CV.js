@@ -17,7 +17,7 @@ export const CV = {
         info: "🔩 Experiencia en Impresión 3D a nivel particular y profesional.",
       },
       {
-        info: "🎸 Músico en mi tiempo libre, apasionado de los cómics y autodidacta en artes plásticas.",
+        info: "🎸 Intento de músico, apasionado de los cómics y autodidacta en artes plásticas.",
       },
       {
         info: "💻 Actualmente mi formación y desarrollo laboral están enfocados en el Full Stack Development.",
