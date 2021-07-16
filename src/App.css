@@ -4,7 +4,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   background: linear-gradient(-45deg, #3e4b71, #859398, #3e4b71, #859398);
   background-size: 400% 400%;
-  animation: gradient 30s ease infinite;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
