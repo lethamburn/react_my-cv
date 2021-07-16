@@ -33,7 +33,7 @@ const More = ({ languages, habilities, volunteer }) => {
         {volunteer.map((item) => {
           return (
             <div key={JSON.stringify(item)}>
-              <p className="name">🏷️{item.name}</p>
+              <p className="name">🥽{item.name}</p>
               <p>{item.where}</p>
               <p>{item.description}</p>
             </div>
