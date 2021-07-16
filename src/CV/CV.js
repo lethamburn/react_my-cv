@@ -85,7 +85,7 @@ export const CV = {
     wrlevel: "Alto",
     splevel: "Medio-Alto",
   },
-  habilities: ["HTML5", "CSS3", "Git", "Angular", "React", "MongoDB"],
+  habilities: ["HTML5", "CSS3", "Git", "Angular", "React", "MongoDB", "Node", "Ultimaker Cura", "Chitubox"],
   volunteer: [
     {
       name: "Protectora de animales",
