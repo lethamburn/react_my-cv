@@ -17,7 +17,6 @@ const Hero = ({ hero }) => {
             antoniorosalesmartinez90@gmail.com
           </a>
         </p>
-        <p>📱 {hero.phone}</p>
         <p>💾<a href={hero.gitHub}>
             GitHub
           </a></p>

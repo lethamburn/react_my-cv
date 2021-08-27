@@ -5,7 +5,6 @@ export const CV = {
     city: "Madrid-Spain",
     email: "antoniorosalesmartinez90@gmail.com",
     birthDate: "26/10/1990",
-    phone: "(+34) 657511155",
     image: "https://i.imgur.com/bQ71faY.png",
     gitHub: "https://github.com/lethamburn",
     portfolio: "https://lethamburn.github.io/react_portfolio/",
