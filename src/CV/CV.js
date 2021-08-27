@@ -96,7 +96,7 @@ export const CV = {
       name: "Impresión de material médico",
       where: "Málaga",
       description:
-        "Impresión en 3D de material médico tales como viseras, salvaorejas y piezas para su montaje a diversos centros de salud y hospitales a comienzos de 2020",
+        "Impresión en 3D de material médico tales como viseras, salvaorejas y piezas para su montaje a diversos centros de salud y hospitales a comienzos de 2020.",
     },
   ],
 };
