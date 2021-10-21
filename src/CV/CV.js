@@ -48,6 +48,13 @@ export const CV = {
   ],
   experience: [
     {
+      name: "Lead Teacher",
+      date: "15/08/2021 – Actualidad",
+      where: "Upgrade Hub",
+      description:
+        "Creador de contenido y Lead Teacher en bootcamps de Full Stack Developer",
+    },
+    {
       name: "Auxiliar Administrativo",
       date: "01/01/2019 – 28/02/2021",
       where: "Escudero Administraciones",
