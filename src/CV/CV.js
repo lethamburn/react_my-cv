@@ -26,7 +26,7 @@ export const CV = {
   education: [
     {
       name: "Desarrollo Full Stack",
-      date: "2021",
+      date: "2021-Actualidad",
       where: "Upgrade Hub",
     },
     {
